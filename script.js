@@ -6,8 +6,14 @@
 // const esElUltimoCaracter= (palabra,caracter)=>{
 //     return (palabra.slice(-1)===caracter)
 //   }
-//EJERCICIO 3
-//EJERCICIO 4
+//EJERCICIO 3: Es contraseña válida
+//const esValida = (contrasenia) => {
+//    return (contrasenia.length >= 8)
+//}
+//EJERCICIO 4: Son iguales
+// const sonIguales = (a, b) => {
+//     return (a.toUpperCase() === b.toUpperCase());
+// }
 //EJERCICIO 5: Contar palabras
 // const contarPalabras=(str)=>{
 //     return (str.split(" ").length)
@@ -17,8 +23,22 @@
 //     return str.replace(/[aeiou]/g, 'i');
 // }
 //EJERCICIO 7: Es fraccion mayor a uno
+// function esFraccionMayorAUno(fraccion) {
+//     const numerador = Number(fraccion[0]);
+//     const denominador = Number(fraccion[2]);
+//     const resultado = numerador / denominador;
+//     return resultado > 1
+// }
 
 //EJERCICIO 8: Capitalizar
 // const capitalizar=(str)=>{
 //     return (str.charAt(0).toUpperCase() + str.slice(1))
 //   }
+// EJERCICIO 9: A hacker speak
+// const aHackerSpeak = (str) => {
+//     return (str.replace(/i/gi, '1').replace(/e/gi, 3).replace(/a/gi, 4).replace(/s/gi, 5).replace(/o/gi, 0));
+// }
+// EJERCICIO 10: Obtener primera oración
+// const obtenerPrimeraOracion = (str) => {
+//     return str.split(".").slice(0, 1)
+// }
