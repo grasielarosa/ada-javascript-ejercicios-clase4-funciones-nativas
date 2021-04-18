@@ -42,3 +42,23 @@
 // const obtenerPrimeraOracion = (str) => {
 //     return str.split(".").slice(0, 1)
 // }
+
+// EJERCICIO 11:
+
+//     EJERCICIO 12: Remover vocales
+// const removerVocales = (str) => {
+//     return str.replace(/[aeiouà-ú]/gi, "")
+// }
+// EJERCICIO 13: Obtener extension
+// const obtenerExtension = (archivo) => {
+//     return archivo.split(".").slice(1, 2)
+// }
+// EJERCICIO 14: Es puente seguro
+// const esPuenteSeguro = (puente) => {
+//     const seguro = (puente.indexOf(" ") >= 0)
+//     return !seguro
+// }
+// EJERCICIO 15: Obtener subreddit
+// const obtenerSubreddit = (url) => {
+//     return url.split('/').slice(4, 5)
+// }
