@@ -43,7 +43,11 @@
 //     return str.split(".").slice(0, 1)
 // }
 
-// EJERCICIO 11:
+// EJERCICIO 11: Ocultar contraseña
+// const ocultarContrasenia = (contrasenia) =>{
+//     const nuevaContrasenia=contrasenia.toString();
+//     return nuevaContrasenia.replace(/[0-9]/g, '*')
+//   }
 
 //     EJERCICIO 12: Remover vocales
 // const removerVocales = (str) => {
@@ -62,3 +66,8 @@
 // const obtenerSubreddit = (url) => {
 //     return url.split('/').slice(4, 5)
 // }
+
+//EJERCICIO 16: Es año nuevo
+// const esAnioNuevo=(fecha)=>{
+//     return fecha.includes('01/01')
+//   }
